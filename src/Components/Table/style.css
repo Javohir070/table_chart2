@@ -1,0 +1,221 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse !important;
+    width: 70%;
+    border: 1px solid #dddddd;
+    overflow-x:auto !important;
+    background-color: #fff;
+  }
+  .container-item{
+    width: 90% !important;
+    padding: 10px auto;
+    margin: auto;
+  }
+  .table-item table,   th, td{
+    border: 1px solid #dddddd !important;
+
+  }
+   td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  td{
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  td:hover{
+    background-color: #ccc;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .table-head{
+      width: 60px;
+      text-align: center;
+  }
+  .table-item{
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+  }
+  .table-title {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    /* background-color: #0a0b0b; */
+    margin: 0px;
+  }
+  .color-bg .red{
+      width: 40px;
+      height: 10px;
+      background-color:rgb(255, 99, 132) ;
+  }
+  .color-bg .green{
+      width: 40px;
+      height: 10px;
+      background-color:rgb(75, 192, 192) ;
+  }
+  .color-bg .yellow{
+      width: 40px;
+      height: 10px;
+      background-color:rgb(255, 205, 86) ;
+  }
+  .color-bg .grey{
+      width: 40px;
+      height: 10px;
+      background-color:rgb(201, 203, 207) ;
+  }
+  .color-bg .blue{
+      width: 40px;
+      height: 10px;
+      background-color:rgb(54, 162, 235) ;
+  }
+  .color-bg .black{
+      width: 40px;
+      height: 10px;
+      background-color:rgb(14, 14, 14) ;
+  }
+  .color-bg .aqua{
+    width: 40px;
+    height: 10px;
+    background-color: #00FFFF;
+}
+.color-bg .brown{
+    width: 40px;
+    height: 10px;
+    background-color:#A52A2A ;
+}
+.color-bg .deepPink{
+  width: 40px;
+  height: 10px;
+  background-color:#FF1493 ;
+}
+.color-bg .gold{
+  width: 40px;
+  height: 10px;
+  background-color:#FFD700;
+}
+.color-bg .indigo{
+  width: 40px;
+  height: 10px;
+  background-color:#4B0082 ;
+}
+.color-bg .lawnGreen{
+  width: 40px;
+  height: 10px;
+  background-color: #7CFC00;
+}
+.color-bg .blueViolet{
+  width: 40px;
+  height: 10px;
+  background-color: #8A2BE2;
+}
+.color-bg .peru{
+  width: 40px;
+  height: 10px;
+  background-color: #CD853F;
+}
+.color-bg .darkGreen{
+  width: 40px;
+  height: 10px;
+  background-color: #006400;
+}
+.table-user{
+  font-size: 18px;
+}
+  .chart-item{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .chart-items{
+    width: 500px;
+    padding-top: 40px;
+    background-color: #fff;
+    margin-left: 50px;
+  }
+  @media (max-width: 1250px){
+    table{
+      margin-bottom: 20px;
+    }
+    .chart-items{
+      margin-left: 0px;
+    }
+  }
+  @media  (max-width: 800px) {
+    .chart-items{
+      width: 500px;
+    }
+    table{
+      width: 90%;
+    }
+    .container-item{
+      width: 100% !important;
+    }
+    .table-title{
+      font-size: 24px;
+    }
+  }
+  @media  (max-width: 1400px) {
+    .chart-items{
+      width: 400px;
+    }
+    table{
+      width: 60%;
+    }
+  }
+  @media  (max-width: 1600px) {
+    .chart-items{
+      width: 400px;
+    }
+    table{
+      width: 60%;
+    }
+  }
+  @media  (max-width: 1700px) {
+    .chart-items{
+      width: 400px;
+    }
+    table{
+      width: 60%;
+    }
+  }
+  @media  (min-width: 1800px) {
+    .chart-items{
+      width: 400px;
+    }
+    table{
+      width: 60%;
+    }
+  }
+  @media  (max-width: 1200px) {
+    .chart-items{
+      width: 500px;
+    }
+    table{
+      width: 90%;
+    }
+  }
+
+  @media (max-width:520px){
+    .chart-items{
+      width: 400px;
+    }
+  }
+  @media (max-width:420px){
+    .chart-items{
+      width: 300px;
+    }
+  }

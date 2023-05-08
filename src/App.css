@@ -1,0 +1,7 @@
+.App{
+  background-color:bisque;
+  background-image: url('./assets/img/img.jpg');
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 30px;
+}
